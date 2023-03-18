@@ -41,7 +41,7 @@ jobs:
         run: |
           set -x
 
-          genpac --pac-proxy "${{github.repository.PROXY}}" --gfwlist-url - --gfwlist-local gfwlist/gfwlist.txt -o gfwlist.pac
+          genpac --pac-proxy "${{ vars.PROXY }}" --gfwlist-url - --gfwlist-local gfwlist/gfwlist.txt -o gfwlist.pac
           sed '1,7d' -i gfwlist.pac
 
           git add gfwlist.pac
