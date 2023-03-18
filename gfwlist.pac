@@ -1,10 +1,3 @@
-var proxy = 'SOCKS5 127.0.0.1:7890';
-var rules = [
-    [
-        [],
-        []
-    ],
-    [
         [
             "aftygh.gov.tw",
             "aide.gov.tw",
