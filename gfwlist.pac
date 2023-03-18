@@ -1,10 +1,3 @@
-        [
-            "aftygh.gov.tw",
-            "aide.gov.tw",
-            "aliyun.com",
-            "arte.gov.tw",
-            "baidu.com",
-            "chinaso.com",
             "chinaz.com",
             "chukuang.gov.tw",
             "cycab.gov.tw",
